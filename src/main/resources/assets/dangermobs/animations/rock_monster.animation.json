@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rock_monster.idle": {
+			"loop": true
+		},
+		"animation.rock_monster.die": {
+			"animation_length": 2,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 90]
+						},
+						"1.5": {
+							"vector": [0, 90, 90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 2, 0]
+						},
+						"0.5": {
+							"vector": [0, -10, 0]
+						},
+						"1.0": {
+							"vector": [0, -10, 28]
+						},
+						"2.0": {
+							"vector": [0, -101, 28]
+						}
+					}
+				}
+			}
+		}
+	}
+}

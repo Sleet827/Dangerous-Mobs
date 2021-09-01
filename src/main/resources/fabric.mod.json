@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dangermobs",
+  "version": "${version}",
+
+  "name": "Dangerous Mobs",
+  "description": "This mod adds many giant monsters to very small pests to minecraft. They all are dangerous!",
+  "authors": [
+    "LegibleSleet827"
+  ],
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.legiblesleet827.dangermobs.DangerousMobsMod"
+    ],
+    "client": [
+      "net.legiblesleet827.dangermobs.DangerousMobsModClient"
+    ]
+  },
+  "mixins": [
+    "dangermobs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
