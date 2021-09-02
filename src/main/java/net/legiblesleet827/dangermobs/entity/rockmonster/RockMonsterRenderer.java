@@ -8,4 +8,9 @@ public class RockMonsterRenderer extends GeoEntityRenderer<RockMonster> {
         super(ctx, new RockMonsterModel());
         this.shadowRadius = 3;
     }
+
+    @Override
+    protected float getDeathMaxRotation(RockMonster entityLivingBaseIn) {
+        return 0.0f;
+    }
 }

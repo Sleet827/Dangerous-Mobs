@@ -47,7 +47,7 @@ public class RockMonster extends HostileEntity implements IAnimatable {
     @Override
     protected void updatePostDeath() {
         ++this.deathTime;
-        if (this.deathTime == 40) {
+        if (this.deathTime == 1000) {
             this.remove(RemovalReason.KILLED);
         }
     }

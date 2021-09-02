@@ -17,7 +17,7 @@ public class DangerousMobsMod implements ModInitializer {
 	public static final EntityType<RockMonster> ROCK_MONSTER = Registry.register(
 			Registry.ENTITY_TYPE,
 			new Identifier(MOD_ID, "rock_monster"),
-			FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, RockMonster::new).dimensions(EntityDimensions.fixed(5, 7)).build()
+			FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, RockMonster::new).dimensions(EntityDimensions.fixed(7, 8)).build()
 	);
 
 	@Override
